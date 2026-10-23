@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right blue, lightblue);
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 + p {
+            background-color: aqua;
+            padding: 10px ;
+            border-radius: 3px;
+            color: brown;
+            display: inline-block;
+        }
+
+        ul > li{
+            font-style: italic ;
+            color: rgb(207, 12, 12);
+            text-decoration: underline;
+
+        }
+
+        ul li:nth-child(4){
+            color: blue;
+        }
+
+        a:hover{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>food menu</h1>
+    <p>pick your fav. dish</p>
+
+    <ul>
+        <li>cakes</li>
+        <li>pizza</li>
+        <li>ice cream</li>
+        <li>bread</li>   
+ </ul>
+
+ <p class="desc">the tasty foods always holds loads of flavour<p>
+
+    <div class="links">
+        <a href="order">place your order</a>
+        <a href="more">see more</a>
+    </div>
+</body>
+</html>
